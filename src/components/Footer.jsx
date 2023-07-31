@@ -10,10 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <img
-          src={"./"}
-          alt="Founder"
-        />
+       
 
         <h2>Neeraj Mishra </h2>
         <p>Motivation is temporary, but discipline last forever.</p>
