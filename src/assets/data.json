@@ -2,9 +2,9 @@
     "projects": [
       {
         "date": "07/10/2022",
-        "title": "SANGEET ARCHANA ",
-        "description": "Sangeet Archana Musical Academy is a music academy dedicated to promoting Indian classical music and fostering a love for music",
-        "url": "https://sangeet-archana.vercel.app/",
+        "title": "NIRMAL SANGEET ",
+        "description": "NIRMAL SANGEET Musical Academy is a music academy dedicated to promoting Indian classical music and fostering a love for music",
+        "url": "https://nirmal-hazel.vercel.app/",
         "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
       },
   
@@ -25,9 +25,9 @@
   
       {
         "date": "17/10/2022",
-        "title": "REACT CART",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://react-cart-eosin.vercel.app",
+        "title": "Portfolio Prism",
+        "description": "Portfolio Prism: Capturing my diverse expertise and accomplishments through a multi-faceted lens of creativity.",
+        "url": "https://nrk.vercel.app/",
         "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
       },
       {

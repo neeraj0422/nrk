@@ -14,7 +14,7 @@ const Testimonial = () => {
         <TestimonialCard
           name={"Ramzi"}
           feedback={
-            "Wow what a portfolio, doesn't expected this to be on youtube!"
+            "Wow what a portfolio, doesn't expected this to be this good!"
           }
         />
 

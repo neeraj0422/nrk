@@ -1,65 +1,70 @@
 #services {
-    width: 100%;
-    height: 100vh;
-    padding: $p;
-    background-color: $color5;
-    color: $color4;
-    overflow: hidden;
-    > h2 {
-      font: 700 2.5rem $text2;
-      width: fit-content;
-      border-bottom: 1px solid $color4;
-      padding: 0.5rem;
-      margin: auto;
-    }
-  
-    > section {
-      display: grid;
-      margin: 3rem;
-      grid-template-columns: repeat(3, 1fr);
-      height: 100%;
-      gap: 2rem;
-      > * {
-        width: 100%;
-        height: 100%;
-        background-color: $color4;
-        color: $color6;
-        display: flex;
-        flex-direction: column;
-        transition: all 0.3s;
-        align-items: center;
-        justify-content: center;
-        &:hover {
-          box-shadow: 0 0 5px 15px $color1;
-        }
-  
-        > svg {
-          color: $color5;
-          font-size: 3rem;
-        }
-        > span {
-          font: 700 1rem $text2;
-          letter-spacing: 3px;
-          margin: 1rem;
-        }
-      }
-  
-      .serviceBox1 {
-        grid-column: 1 / 2;
-        grid-row: 1/3;
-        background-color: $color1;
-  
-        > h3 {
-          font: 100 5rem $text1;
-        }
-        > p {
-          font: 700 1.2rem $text2;
-          letter-spacing: 3px;
-        }
-      }
-      .serviceBox4 {
-        grid-column: 2/4;
-      }
-    }
-  }
-  
+  width: 100%;
+  height: 100vh;
+  padding: 20px; /* Replace with the desired padding value */
+  background-color: #f0f0f0; /* Replace with the desired color value */
+  color: #333333; /* Replace with the desired color value */
+  overflow: hidden;
+}
+
+#services > h2 {
+  font: 700 2.5rem "Helvetica", sans-serif; /* Replace with the desired font value */
+  width: fit-content;
+  border-bottom: 1px solid #333333; /* Replace with the desired color value */
+  padding: 0.5rem;
+  margin: auto;
+}
+
+#services > section {
+  display: grid;
+  margin: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  gap: 2rem;
+}
+
+#services > section > * {
+  width: 100%;
+  height: 100%;
+  background-color: #333333; /* Replace with the desired color value */
+  color: #dddddd; /* Replace with the desired color value */
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+
+#services > section > *:hover {
+  box-shadow: 0 0 5px 15px #ff0000; /* Replace with the desired color value */
+}
+
+#services > section > * > svg {
+  color: #ffffff; /* Replace with the desired color value */
+  font-size: 3rem;
+}
+
+#services > section > * > span {
+  font: 700 1rem "Helvetica", sans-serif; /* Replace with the desired font value */
+  letter-spacing: 3px;
+  margin: 1rem;
+}
+
+#services > section .serviceBox1 {
+  grid-column: 1 / 2;
+  grid-row: 1/3;
+  background-color: #ff0000; /* Replace with the desired color value */
+}
+
+#services > section .serviceBox1 > h3 {
+  font: 100 5rem "Arial", sans-serif; /* Replace with the desired font value */
+}
+
+#services > section .serviceBox1 > p {
+  font: 700 1.2rem "Helvetica", sans-serif; /* Replace with the desired font value */
+  letter-spacing: 3px;
+}
+
+#services > section .serviceBox4 {
+  grid-column: 2/4;
+}
